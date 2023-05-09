@@ -6593,11 +6593,24 @@ a
   fill: var(--theme-color-font) !important;
 }
 
+.navbar-back
+{
+  padding: 18px 15px;
+}
 
-@media (min-width: 992px) {
+@media (min-width: 992px)
+{
   .navbar-expand-lg .navbar-nav .nav-link 
   {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
+  }
+}
+
+@media (max-width: 992px) 
+{
+  .social-side
+  {
+    display: none !important;
   }
 }
