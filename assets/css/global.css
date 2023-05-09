@@ -402,7 +402,7 @@ h6 {
 }
 .title {
     font-size: var(--title-heading);
-    line-height: calc(var(--title-heading) + 10px);
+    line-height: calc(var(--title-heading) + 20px);
     letter-spacing: 2px;
 }
 .sm-title-block {
