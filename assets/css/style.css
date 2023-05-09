@@ -6568,7 +6568,7 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   outline: none !important;
 }
 
-.nav-link:hover .nav-link.active
+.nav-link:hover, .nav-link.active
 {
   color: #239aff !important;
 }
