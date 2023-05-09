@@ -6603,6 +6603,11 @@ a
   color: #239aff;
 }
 
+.text-white
+{
+  color: #ffffff !important;
+}
+
 @media (min-width: 992px)
 {
   .navbar-expand-lg .navbar-nav .nav-link 
