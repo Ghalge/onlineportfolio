@@ -6578,6 +6578,21 @@ a
   color: inherit !important;
 }
 
+.border-color-heading
+{
+  border-color: transparent !important;
+}
+
+.move-circle.border-color-heading .icon-circle
+{
+  border-color: var(--theme-color-font) !important;
+}
+
+.dsn-style-cards .dsn-posts.box-image-normal .dsn-post-link svg
+{
+  fill: var(--theme-color-font) !important;
+}
+
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link 
