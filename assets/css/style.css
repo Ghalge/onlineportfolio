@@ -59,7 +59,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
 
 :root .v-dark, :root .v-dark-head {
   --bg-color: #131313;
-  --assistant-color: #191919;
+  --assistant-color: #239aff;
   --theme-color: #e4e4dd;
   --font-color: #ddd;
   --heading-color: #fff;
@@ -6596,6 +6596,11 @@ a
 .navbar-back
 {
   padding: 18px 15px;
+}
+
+.dsn-icon i:hover
+{
+  color: #239aff;
 }
 
 @media (min-width: 992px)
