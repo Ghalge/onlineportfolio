@@ -16,6 +16,7 @@
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 </head>
 
@@ -61,7 +62,38 @@
                         <img src="assets/img/ghalge-dark.png" class="custom-logo logo-dark" alt="Ghalge Creative" />
                     </a>
                 </div>
-                <nav class="main-navigation ">
+                <!-- <div>
+                    <a title="Home" href="index.html">
+                        <span class="overflow">Home</span>
+                    </a>
+                    <a title="About Me" href="#aboutme">
+                        <span class="overflow">About Me</span>
+                    </a>
+                    <a title="Skills" href="#skills">
+                        <span class="overflow">Skills</span>
+                    </a>
+                    <a title="Experience" href="#exp">
+                        <span class="overflow">Experience</span>
+                    </a>
+                    <a title="Portfolio" href="#portfolio">
+                        <span class="overflow">Portfolio</span>
+                    </a>
+                </div> -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link" title="Home" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" title="About Me" href="#aboutme">About Me</a>
+                        <a class="nav-item nav-link" title="Skills" href="#skills">Skills</a>
+                        <a class="nav-item nav-link" title="Experience" href="#exp">Experience</a>
+                        <a class="nav-item nav-link" title="Portfolio" href="#port">Portfolio</a>
+                      </div>
+                    </div>
+                  </nav>
+                <!-- <nav class="main-navigation ">
                     <div class="menu-cover-title header-container dsn-container">MENU</div>
                     <ul id="dsn-primary-list" class="primary-nav h2">
                         <li class="nav-item ">
@@ -70,22 +102,22 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="About Me" href="index.html#aboutme">
+                            <a title="About" href="index.html#aboutme">
                                 <span class="overflow">About Me</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Skills" href="#skills">
+                            <a title="Skills" href="index.html#skills">
                                 <span class="overflow">Skills</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Experience" href="#portfolio">
+                            <a title="Experience" href="index.html#exp">
                                 <span class="overflow">Experience</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Portfolio" href="#portfolio">
+                            <a title="Portfolio" href="index.html#portfolio">
                                 <span class="overflow">Portfolio</span>
                             </a>
                         </li>
@@ -121,8 +153,9 @@
                             </div>
                         </div>
                     </div>
-                </nav>
-                <div id="navbar_toggle" class="navbar-toggle">
+                </nav> -->
+
+                <!-- <div id="navbar_toggle" class="navbar-toggle">
                     <div class="toggle-icon">
                         <div class="toggle-line"></div>
                         <div class="toggle-line"></div>
@@ -133,7 +166,7 @@
                         <div class="text-open">Open</div>
                         <div class="text-close">Close</div>
                     </div>
-                </div>
+                </div> -->
                 <div class="bg-load background-main"></div>
 
                 <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
@@ -148,6 +181,7 @@
 
 
         <!-- ========== Header ========== -->
+        <div id="home"></div>
         <header id="dsn_header" class="dsn-header-animation dsn-full-header v-dark-head">
             <div class="entry-header p-relative over-hidden">
                 <div id="hero_image" class="p-absolute dsn-hero-parallax-img over-hidden" data-dsn-ajax="img"
@@ -244,7 +278,7 @@
             <!-- ========== About Section ========== -->
             <div class="about-section about-resume container section-margin text-center">
                 <div class="section-title mb-70">
-                    <h2 class="title-h2 text-upper" id="aboutme">I'm In The Design Industry For More Than <br> 8 Years
+                    <h2 class="title-h2 text-upper">I'm In The Design Industry For More Than <br> 8 Years
                         Of Experience.</h2>
                     <p class="max-w750 mt-20 text-none">
                         Hi, <strong>I'm Allen Requina</strong>. I'm a skilled Web UI/UX Designer proven to use UI
@@ -273,6 +307,7 @@
 
                 </div>
             </div>
+            <div id="aboutme"></div>
             <!-- ========== End About Section ========== -->
 
             <!-- ========== Service ========== -->
@@ -419,8 +454,7 @@
             <!-- ========== End Service ========== -->
 
             <!-- ========== Skills ========== -->
-            <div class="container section-margin pt-section border-top d-grid grid-md-2" data-dsn-gap="30px 120px"
-                id="skills">
+            <div class="container section-margin pt-section border-top d-grid grid-md-2" data-dsn-gap="30px 120px">
                 <div class="box-left p-relative  pinned-scroll" data-dsn-option='{"end":"250"}'>
                     <div class="section-title  pinned-element">
                         <h2 class="title-h2 text-upper">MY SKILLS</h2>
@@ -520,11 +554,11 @@
                     </div>
                 </div>
             </div>
+            <div id="skills"></div>
             <!-- ========== End skills ========== -->
 
             <!-- ========== resume ========== -->
-            <div class="container section-margin pt-section border-top d-grid grid-md-2" data-dsn-gap="30px 120px"
-                id="experience">
+            <div class="container section-margin pt-section border-top d-grid grid-md-2" data-dsn-gap="30px 120px">
                 <div class="box-left p-relative  pinned-scroll" data-dsn-option='{"end":"250"}'>
                     <div class="section-title  pinned-element">
                         <h2 class="title-h2 text-upper">My past experience</h2>
@@ -566,7 +600,6 @@
                             </div>
                         </div>
 
-
                         <div class="resume-item">
                             <h4 class="sm-title-block resume-title mb-15">Glocorp IT Solutions Inc.</h4>
                             <h6 class="resume-position">Junior Web Designer & Front-Developer (Jun 2015 - Aug 2016)</h6>
@@ -578,22 +611,27 @@
                                 </p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
+            <div id="exp"></div>
             <!-- ========== End skills ========== -->
 
             <!-- ========== Portfolio ========== -->
-            <div class="p-relative container  section-margin pt-section border-top v-dark-head">
-                <div class="box-image-transform dsn-style-cards" id="portfolio">
+            <div class="p-relative container section-margin pt-section border-top">
+                <div class="section-title mb-70 text-center">
+                    <h2 class="title-h2 text-upper">My Work Projects</h2>
+                    <p class="max-w570 mt-20">
+                        List of projects you can check on
+                    </p>
+                </div>
+                <div class="box-image-transform dsn-style-cards">
                     <div class="root-posts  has-filters">
-                        <div
-                            class="d-grid grid-md-2 dsn-isotope dsn-posts dsn-post-type-cards box-image-normal use-filters">
+                        <div class="d-grid grid-md-2 dsn-isotope dsn-posts dsn-post-type-cards box-image-normal use-filters">
                             <article class="dsn-item-post grid-item production over-hidden p-relative box-hover-image">
-                                <div class="box-content d-flex ">
-                                    <a class="box-image-link  bg-shadow" href="happyluck.html" target="_blank" data-dsn-ajax="work" title="HappyLuck Website">
+                                <div class="box-content d-flex">
+                                    <a class="box-image-link  bg-shadow" href="happyluck.html" target="_blank"
+                                        data-dsn-ajax="work" title="HappyLuck Website">
                                         <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
                                             data-overlay="4">
                                             <img class="cover-bg-img" src="assets/img/portfolio/happyluck/1.jpg"
@@ -605,16 +643,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator="&">UI/UX Design</span>
+                                                    <span data-separator="&" class="text-white">UI/UX Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     HAPPYLUCK WEBSITE
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 HappyLuck website is an online gaming website which they can play games
                                                 such as slot, live casino and sportsbook.
                                             </p>
@@ -631,11 +669,11 @@
                                     </div>
                                 </div>
                             </article>
-                            <article
+                            <article 
                                 class="dsn-item-post grid-item production photography over-hidden p-relative box-hover-image">
                                 <div class="box-content d-flex ">
-                                    <a class="box-image-link bg-shadow" href="happyluck-app.html"
-                                        target="_blank" data-dsn-ajax="work" title="HappyLuck Mobile Application">
+                                    <a class="box-image-link bg-shadow" href="happyluck-app.html" target="_blank"
+                                        data-dsn-ajax="work" title="HappyLuck Mobile Application">
                                         <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
                                             data-overlay="3">
                                             <img class="cover-bg-img"
@@ -647,16 +685,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">UI/UX Design</span>
+                                                    <span data-separator=" & " class="text-white">UI/UX Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     HAPPYLUCK MOBILE APP
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 HappyLuck mobile application is an online gaming and with other
                                                 categories like streaming, sexy live, livescore, tips and tricks and
                                                 lottery games.
@@ -676,8 +714,8 @@
                             <article
                                 class="dsn-item-post grid-item production photography over-hidden p-relative box-hover-image">
                                 <div class="box-content d-flex ">
-                                    <a class="box-image-link bg-shadow" href="hiretrades.html"
-                                        target="_blank" data-dsn-ajax="work" title="HireTrades">
+                                    <a class="box-image-link bg-shadow" href="hiretrades.html" target="_blank"
+                                        data-dsn-ajax="work" title="HireTrades">
                                         <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
                                             data-overlay="3">
                                             <img class="cover-bg-img" src="assets/img/portfolio/HireTrades/1.jpg"
@@ -689,16 +727,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">Web & Mobile Design</span>
+                                                    <span data-separator=" & " class="text-white">Web & Mobile Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     HIRETRADES
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 HIREtrades is your online platform for hiring a potential tradie that
                                                 you can trust with your job
                                             </p>
@@ -729,16 +767,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">Web & Mobile Design</span>
+                                                    <span data-separator=" & " class="text-white">Web & Mobile Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     VITALIS VILLAS RESORT
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 Vitalis Villas is the most exclusive of luxury accommodations perched
                                                 high on the mountain cliffs overlooking the sea and the beautiful
                                                 Santiago Cove.
@@ -758,8 +796,8 @@
                             <article
                                 class="dsn-item-post grid-item production photography over-hidden p-relative box-hover-image">
                                 <div class="box-content d-flex ">
-                                    <a class="box-image-link bg-shadow" href="littlepanda.html"
-                                        target="_blank" data-dsn-ajax="work" title="Little Pandamoon">
+                                    <a class="box-image-link bg-shadow" href="littlepanda.html" target="_blank"
+                                        data-dsn-ajax="work" title="Little Pandamoon">
                                         <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
                                             data-overlay="3">
                                             <img class="cover-bg-img" src="assets/img/portfolio/Littlepanda/1.jpg"
@@ -771,16 +809,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">Web & Mobile Design</span>
+                                                    <span data-separator=" & " class="text-white">Web & Mobile Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     LITTLE PANDAMOON WEBSITE
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 Little Panda Moon is a crypto website were theme related to panda
                                                 lifestyle and crypto earning styles.
                                             </p>
@@ -812,16 +850,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">Web & Mobile Design</span>
+                                                    <span data-separator=" & " class="text-white">Web & Mobile Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     DIAMOND HOTEL WEBSITE
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 Diamond hotel is a five star luxury hotel website theme with vicinity of
                                                 popular attraction and with magnificent golden sunset style.
                                             </p>
@@ -840,8 +878,8 @@
                             <article
                                 class="dsn-item-post grid-item production photography over-hidden p-relative box-hover-image">
                                 <div class="box-content d-flex ">
-                                    <a class="box-image-link bg-shadow" href="happyluckbanner.html"
-                                        target="_blank" data-dsn-ajax="work" title="HappyLuck Banners">
+                                    <a class="box-image-link bg-shadow" href="happyluckbanner.html" target="_blank"
+                                        data-dsn-ajax="work" title="HappyLuck Banners">
                                         <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
                                             data-overlay="3">
                                             <img class="cover-bg-img" src="assets/img/portfolio/Banner-Marketing/1.jpg"
@@ -853,16 +891,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">Marketing Design</span>
+                                                    <span data-separator=" & " class="text-white">Marketing Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     HAPPYLUCK MATERIAL ASSETS
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 HappyLuck Material Assets such as website banners, social media banners,
                                                 app featured graphics, screenshots etc.
                                             </p>
@@ -894,16 +932,16 @@
                                             <div class="post-meta max-w750">
                                                 <div
                                                     class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                    <span data-separator=" & ">Marketing Design</span>
+                                                    <span data-separator=" & " class="text-white">Marketing Design</span>
                                                 </div>
                                             </div>
                                             <h2 class="post-title title-block">
-                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax"
+                                                <a href="happyluck-app.html" target="_blank" class="effect-ajax text-white"
                                                     data-dsn-ajax="work">
                                                     GRAB TAXI CAMPAIGN
                                                 </a>
                                             </h2>
-                                            <p class="section_description mt-15 max-w570 ">
+                                            <p class="section_description mt-15 max-w570 text-white">
                                                 Grab Taxi Campaign Advertisement for the World Cup 2022 Qatar
                                             </p>
                                             <a href="grab.html" target="_blank"
@@ -921,8 +959,8 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+            <div id="port"></div>
             <!-- ========== End Portfolio ========== -->
 
 
@@ -1096,7 +1134,10 @@
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/plugins/dsn-grid.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/custom.js"></script>
+
+
 
 </body>
 

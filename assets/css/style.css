@@ -902,7 +902,7 @@ a:hover, a:active {
   z-index: 97;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 .site-header > .p-relative.dsn-container {
@@ -5124,7 +5124,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   margin-bottom: 60px;
 }
 .about-resume .box-img .img-right img {
-  height: 520px;
+  height: auto;
 }
 @media only screen and (min-width: 992px) {
   .about-resume .box-img .img-left {
@@ -6548,4 +6548,41 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 .box-img img
 {
   border-radius: 10px;
+}
+
+.navbar
+{
+  justify-content: end !important;
+  padding: 0rem !important;
+}
+
+.navbar-nav
+{
+  text-align: right !important;
+  padding: 10px 10px !important;
+}
+
+.navbar-dark .navbar-toggler
+{
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.nav-link:hover
+{
+  color: #239aff !important;
+}
+
+a
+{
+  color: inherit !important;
+}
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link 
+  {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
 }
